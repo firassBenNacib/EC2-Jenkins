@@ -31,7 +31,7 @@ resource "aws_security_group" "Jenkins-sg" {
 
 
 resource "aws_instance" "web" {
-  ami                    = "ami-0f5ee92e2d63afc18"
+  ami                    = "ami-0989fb15ce71ba39e"
   instance_type          = "t2.medium"
   key_name               = "Stockholm"
   vpc_security_group_ids = [aws_security_group.Jenkins-sg.id]

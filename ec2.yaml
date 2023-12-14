@@ -86,3 +86,4 @@
           sudo systemctl enable docker
           sudo docker run -d --name 1120 -p 3000:3000 firaskill12/1120:latest
       register: ec2
+ 

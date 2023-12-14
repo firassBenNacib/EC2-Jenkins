@@ -23,7 +23,7 @@
   vars:
     ansible_python_interpreter: /usr/bin/python3.10
     keypair: Stockholm
-    instance_type: t2.micro
+    instance_type: t3.micro
     image_id: ami-0989fb15ce71ba39e
     wait: yes
     group: webserver
